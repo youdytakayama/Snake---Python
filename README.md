@@ -3,12 +3,13 @@ Jogo básico da cobrinha (Snake) em Python usando a biblioteca Pygame. Vou forne
 Passos para instalar o Pygame:
 Certifique-se de ter o Python instalado em seu sistema.
 Instale a biblioteca Pygame usando pip:
+
 sh
-Copiar código
 pip install pygame
+
 Código do Jogo da Cobrinha
 python
-Copiar código
+
 import pygame
 import time
 import random
@@ -131,19 +132,22 @@ def gameLoop():
     quit()
 
 gameLoop()
+
 Explicação do Código:
-Importações e Inicialização: Importamos Pygame, tempo e random, e inicializamos Pygame.
-Cores e Dimensões: Definimos algumas cores e as dimensões da janela do jogo.
-Configuração do Jogo: Criamos a janela do jogo e definimos a velocidade e o tamanho do bloco da cobra.
-Funções:
+1. Importações e Inicialização: Importamos Pygame, tempo e random, e inicializamos Pygame.
+2. Cores e Dimensões: Definimos algumas cores e as dimensões da janela do jogo.
+3. Configuração do Jogo: Criamos a janela do jogo e definimos a velocidade e o tamanho do bloco da cobra.
+4.Funções:
 your_score(): Exibe a pontuação atual na tela.
 our_snake(): Desenha a cobra na tela.
 message(): Exibe mensagens na tela.
-gameLoop(): Função principal que contém a lógica do jogo. Gerencia os eventos, movimentos da cobra, colisões, alimentação e atualização da tela.
+5.gameLoop(): Função principal que contém a lógica do jogo. Gerencia os eventos, movimentos da cobra, colisões, alimentação e atualização da tela.
+
 Como Executar:
 Salve o código em um arquivo Python, por exemplo, snake_game.py.
 Execute o script usando o Python:
+
 sh
-Copiar código
 python snake_game.py
+
 Este é um jogo básico da cobrinha em Python usando Pygame. Você pode personalizar e expandir o jogo com novos recursos, como níveis, sons, gráficos aprimorados, etc.
